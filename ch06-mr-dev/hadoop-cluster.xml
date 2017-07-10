@@ -3,17 +3,17 @@
 
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://116.62.175.219:9000</value>
+    <value>hdfs://172.17.0.3:9000</value>
   </property>
 
   <property>
     <name>mapreduce.framework.name</name>
     <value>yarn</value>
   </property>
-
   <property>
     <name>yarn.resourcemanager.address</name>
-    <value>116.62.175.219:8032</value>
+	<value>172.17.0.3:8032</value>
   </property>
+
 
 </configuration>
