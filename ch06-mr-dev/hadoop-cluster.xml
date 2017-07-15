@@ -3,7 +3,7 @@
 
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://172.17.0.3:9000</value>
+    <value>hdfs://116.62.61.128:8020</value>
   </property>
 
   <property>
@@ -12,7 +12,11 @@
   </property>
   <property>
     <name>yarn.resourcemanager.address</name>
-	<value>172.17.0.3:8032</value>
+	<value>116.62.61.128:8032</value>
+  </property>
+  <property>
+    <name>dfs.client.use.datanode.hostname</name>
+	<value>true</value>
   </property>
 
 
